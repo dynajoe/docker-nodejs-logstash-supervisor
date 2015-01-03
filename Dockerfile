@@ -1,6 +1,6 @@
 FROM debian:wheezy
 
-ENV NODE_VERSION 0.10.33
+ENV NODE_VERSION 0.10.35
 
 RUN apt-get update -y && \
    apt-get install wget -y && \
